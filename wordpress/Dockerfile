@@ -1,4 +1,4 @@
-FROM wordpress
+FROM wordpress:5.2.0-apache
 MAINTAINER shree dee <dee@labizbille.com>
 
 EXPOSE 80

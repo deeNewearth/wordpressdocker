@@ -1,0 +1,7 @@
+#just for building and keeping track of last tagged version
+version: '3'
+
+services:
+  wordpress:
+    build: ./wordpress
+    image: labizbille/docker-wp:v1.2
